@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agro Forte - Futuro Sustentável</title>
+
+<style>
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://images.unsplash.com/photo-1500595046743-cd271d694d30");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+#telaEntrada {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    text-align: center;
+}
+
+#telaEntrada button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background: #2ecc71;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#telaEntrada button:hover {
+    background: #27ae60;
+}
+
+
+#conteudo {
+    display: none;
+    padding: 20px;
+    background: rgba(255,255,255,0.9);
+}
+
+
+header {
+    background: #1e5631;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+
+section {
+    margin: 20px 0;
+    padding: 15px;
+    border-left: 5px solid #2ecc71;
+    background: #f4f4f4;
+}
+
+h2 {
+    color: #1e5631;
+}
+</style>
+
+</head>
+
+<body>
+
+
+<div id="telaEntrada">
+    <h1>🌱 Agro Forte - Futuro Sustentável</h1>
+    <p>Feito: por Emanuely Gabriely Conceção de Oliveira🚜💗</p>
+    <p>Aqui vamos aprender tudo que é mais importante sobre o agro, vamo comigo nessa jornada</p>
+    <p>Produção e meio ambiente em equilíbrio</p>
+    <p>fonte: Agropc Futuro</p>
+    <button onclick="entrarSite()">Entrar no site</button>
+</div>
+
+
+<div id="conteudo">
+
+<header>
+    <h1>Agro Forte: Sustentabilidade no Campo</h1>
+</header>
+
+<section>
+    <h2>🌾 O que é o Agro Sustentável?</h2>
+    <p>
+        O agro sustentável é um modelo de produção agrícola que busca equilibrar a alta produtividade com a preservação do meio ambiente. 
+        Ele utiliza tecnologias modernas, manejo consciente do solo e respeito aos recursos naturais.
+    </p>
+</section>
+
+<section>
+    <h2>🌎 Importância do equilíbrio ambiental</h2>
+    <p>
+        A agricultura depende diretamente da natureza. Sem solo fértil, água limpa e clima equilibrado, a produção rural é afetada. 
+        Por isso, preservar o meio ambiente é essencial para garantir o futuro da agricultura.
+    </p>
+</section>
+
+<section>
+    <h2>🚜 Tecnologias no campo</h2>
+    <p>
+        Hoje o campo utiliza drones, sensores de solo, irrigação inteligente e inteligência artificial para aumentar a produção 
+        sem destruir a natureza.
+    </p>
+</section>
+
+<section>
+    <h2>🌱 Práticas sustentáveis</h2>
+    <ul>
+        <p></p>Rotação de culturas
+        <p></p>Uso consciente da água
+        <p></p>Energia solar nas propriedades
+        <p></p>Redução de agrotóxicos
+        <p></p>Reflorestamento de áreas degradadas
+    </ul>
+</section>
+
+<section>
+    <h2>🌾 Futuro do Agro</h2>
+    <p>
+        O futuro da agricultura depende da união entre tecnologia e natureza. O objetivo é produzir mais alimentos, 
+        com menos impacto ambiental e maior eficiência.
+    </p>
+</section>
+
+<section>
+    <h2>💡 Conclusão</h2>
+    <p>
+        O agro forte não é aquele que apenas produz muito, mas sim aquele que produz com responsabilidade, garantindo 
+        recursos para as próximas gerações.
+    </p>
+</section>
+
+</div>
+
+<script>
+function entrarSite() {
+    document.getElementById("telaEntrada").style.display = "none";
+    document.getElementById("conteudo").style.display = "block";
+}
+</script>
+
+</body>
+</html>
