@@ -1,10 +1,10 @@
-# Mais-Ligados-ao-Campo-e-a-Sustentabilidade
+# 🌱Mais-Ligados-ao-Campo-e-a-Sustentabilidade
 Acreditamos no equilíbrio entre produção e meio ambiente como base para o futuro da agricultura. Por isso, promovemos práticas sustentáveis, tecnologias modernas e soluções inteligentes que fortalecem o setor agropecuário enquanto cuidam do solo, da água e da biodiversidade.
- # Objetivo
+ # 🎯Objetivo
  fazer com que as pessoa entendam e se interresem ao agro forte futuro sustentavel.
 
 # Recusrsos Tecnicos
-# Estrutura e Metadados (HTML5)
+# ⚙️Estrutura e Metadados (HTML5)
 <!DOCTYPE html>: Declaração que define o documento como HTML5.
 lang="pt-br": Atributo de acessibilidade e SEO que define o idioma principal da página como português do Brasil.
 Tags <meta>: * charset="UTF-8": Garante a codificação correta de caracteres e acentos (como ç, á, õ).
